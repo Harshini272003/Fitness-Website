@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  
+  font-family: 'Poppins', sans-serif;
+
+}
+nav h1
+{
+	padding-left: 15%;
+	padding-top: 5%;
+}
+#h1
+{
+	
+	font-size: 50px;
+}
+.nav-item
+{
+	padding: 10px;
+}
+.nav-item a
+{
+	font-size: 20px;
+}
+nav #link:hover
+{
+	color: #111;
+}
+#head-p
+{
+	color: #fff;
+	font-size: 20px;
+}
+.container-fluid{
+  padding : 3% 15% 7%;
+
+
+}
+#left
+{
+	padding-left: 15%;
+	padding-top: 5%;
+}
+#start:hover
+{
+	background: #FF1E00;
+}
+
+#about-p
+{
+	letter-spacing: 2px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#right
+{
+	padding-top: 5%;
+}
+#about_img
+{
+   padding-left: 50px;
+}
+
+#card_course
+{
+	padding-top: 50px;
+	padding-bottom:50px;
+}
+.course_button:hover
+{
+	background-color: #fff;
+}
+.card-text,.card_img
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+.card-text
+{
+	letter-spacing: 1.5px;
+}
+footer {
+ 
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer p > span {
+  color: #ff512f;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  border: none;
+}
+
+footer .column i {
+  color: #dd2476;
+}
+
+/* It is Adjacent sibling combinator */
+
+footer .column i + i {
+  padding: 0 0.5em;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.815);
+  z-index: 9999;
+  transition: all 1.5s ease;
+}
